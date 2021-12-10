@@ -220,13 +220,6 @@ class Consumer extends RedPop {
 
   async onEvent(event) {
     console.log('Event Received', event);
-    try {
-      await this.processEvent(event);
-      console.warn(
-        '[WARN] Consumer::processEvent() has been deprecated and will be removed in a future version. Use onEvent() instead.'
-      );
-      // eslint-disable-next-line no-empty
-    } catch {}
     return true;
   }
 

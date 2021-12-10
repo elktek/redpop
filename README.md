@@ -1,4 +1,4 @@
-# redpop
+# RedPop
 
 RedPop is a pre-baked Redis Streams consumer and publisher library for Nodejs.  Use it to simplify the creation of an event bus architecture and to create  horizontally scalable data processing applications.  RedPop leverages the work of the ioredis (https://www.npmjs.com/package/ioredis) package and "fills in the gaps" with built-in handlers to deal with the minutae of event replay, cleanup, and consumer and consumer group management. 
 
