@@ -218,8 +218,7 @@ class Consumer extends RedPop {
    *
    */
 
-  async onEvent(event) {
-    console.log('Event Received', event);
+  async onEvent() {
     return true;
   }
 
