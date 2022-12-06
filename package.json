@@ -35,7 +35,7 @@
     "ioredis": "^4.17.3",
     "lodash": "^4.17.19",
     "nanoid": "^3.3.1",
-    "nodemon": "^2.0.15"
+    "nodemon": "^2.0.20"
   },
   "devDependencies": {
     "assert": "^2.0.0",
