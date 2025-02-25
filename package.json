@@ -1,6 +1,6 @@
 {
   "name": "redpop",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Redis Streams Point of Presence",
   "main": "src/index.js",
   "scripts": {
@@ -34,7 +34,7 @@
   "dependencies": {
     "ioredis": "^4.17.3",
     "lodash": "^4.17.19",
-    "nanoid": "^3.3.1",
+    "nanoid": "^3.3.8",
     "nodemon": "^2.0.20"
   },
   "devDependencies": {
